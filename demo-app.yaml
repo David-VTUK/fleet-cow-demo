@@ -32,7 +32,7 @@ spec:
     spec:
       containers:
         - name: demo-app
-          image: monachus/rancher-demo-invalid
+          image: monachus/rancher-demo
           env:
             - name: COW_COLOR
               value: "blue"
