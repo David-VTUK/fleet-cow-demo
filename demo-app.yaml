@@ -35,6 +35,6 @@ spec:
           image: monachus/rancher-demo
           env:
             - name: COW_COLOR
-              value: "blue"
+              value: "red"
           ports:
             - containerPort: 8080
