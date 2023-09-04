@@ -3,6 +3,7 @@ trigger:
 
 pool: default
 
+steps:
 - task: KubernetesManifest@1
   inputs:
     action: 'deploy'
