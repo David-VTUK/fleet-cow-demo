@@ -1,8 +1,7 @@
 trigger:
 - master
 
-pool:
-  default
+pool: default
 
 - task: KubernetesManifest@1
   inputs:
