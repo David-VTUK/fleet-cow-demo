@@ -4,4 +4,10 @@
 pool:
   default
 
-
+- task: KubernetesManifest@1
+  inputs:
+    action: 'deploy'
+    connectionType: 'kubernetesServiceConnection'
+    kubernetesServiceConnection: 'onprem-k8s-cluster'
+    namespace: 'default'
+    manifests: './demo-app.yaml'
